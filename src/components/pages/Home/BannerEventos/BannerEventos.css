@@ -1,0 +1,34 @@
+.bannerEventos {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.bannerEventos--divisor {
+    width: 50vw;
+    height: 50vh;
+}
+
+#bannerEventos--divisor--1 {
+    background-image: url(../../../../assets/eventos-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#bannerEventos--divisor--2 h1,
+#bannerEventos--divisor--2 h3 {
+    text-align: center;
+}
+
+#bannerEventos--divisor--2 p {
+    margin-top: 2rem;
+}
+
+#bannerEventos--divisor--2 {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}

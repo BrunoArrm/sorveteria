@@ -1,0 +1,25 @@
+.cardSabor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 350px;
+    margin: 2rem;
+    padding: 1rem;
+    box-shadow: 0px 0px 10px 1px black;
+    border-radius: 10px;
+}
+
+.cardSabor img {
+    width: 100%;
+}
+
+.cardSabor h1 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.cardSabor p {
+    text-align: center;
+}

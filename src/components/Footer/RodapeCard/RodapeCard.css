@@ -1,0 +1,13 @@
+.rodapeCard {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.rodape .rodape--img {
+    width: 100px;
+}
+
+.rodape p {
+    color: rgb(177, 174, 174);
+}

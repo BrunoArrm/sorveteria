@@ -1,0 +1,34 @@
+.bannerSobre {
+    display: flex;
+    flex-direction: row;
+}
+
+.bannerSobre--divisor {
+    width: 50vw;
+    height: 50vh;
+}
+
+#bannerSobre--divisor--1 {
+    background-image: url(../../../../assets/sobre-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#bannerSobre--divisor--2 h1,
+#bannerSobre--divisor--2 h3 {
+    text-align: center;
+}
+
+#bannerSobre--divisor--2 p {
+    margin-top: 2rem;
+}
+
+#bannerSobre--divisor--2 {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}

@@ -1,0 +1,31 @@
+.sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.sobre--bannerLimitador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../../assets/banner-sobre.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 85vh;
+    margin-bottom: 50px;
+}
+
+.sobre--bannerLimitador h1 {
+    color: white;
+    text-shadow: 2px 2px 1px black;
+    font-size: 5rem;
+}
+
+.sobre--texto {
+    margin-bottom: 50px;
+    padding: 0 300px 0 300px;
+    line-height: 2rem;
+}

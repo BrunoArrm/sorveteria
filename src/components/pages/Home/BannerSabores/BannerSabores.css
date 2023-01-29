@@ -1,0 +1,34 @@
+.bannerSabores {
+    display: flex;
+    flex-direction: row;
+}
+
+.bannerSabores--divisor {
+    width: 50vw;
+    height: 50vh;
+}
+
+#bannerSabores--divisor--1 {
+    background-image: url(../../../../assets/banner-sabores.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#bannerSabores--divisor--2 h1,
+#bannerSabores--divisor--2 h3 {
+    text-align: center;
+}
+
+#bannerSabores--divisor--2 p {
+    margin-top: 2rem;
+}
+
+#bannerSabores--divisor--2 {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
